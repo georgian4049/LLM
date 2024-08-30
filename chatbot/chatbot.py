@@ -203,12 +203,12 @@ model = GPTLanguageModel(vocab_size).to(device)
 optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate)
 
 # Train the model
-model_path = 'model-01.pkl'
+model_path = 'saved_model.pkl'
 if os.path.isfile(model_path):
     with open(model_path, 'rb') as f:
         model = pickle.load(f).to(device)
 
-#train_model(model, train_loader, optimizer, epochs)
+train_model(model, train_loader, optimizer, epochs)
 
 # Chatbot interaction
 def chatbot_interaction():
