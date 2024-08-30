@@ -1,6 +1,6 @@
 # GPT-Based Chatbot
 
-This folder contains a simple GPT-based chatbot implementation using PyTorch. The chatbot is capable of generating human-like responses to user inputs after being trained on text data from classic literature.
+This folder contains a simple GPT-based chatbot implementation using PyTorch. The chatbot is capable of generating responses to user inputs after being trained on text data from classic literature. It definitely needs more data to train perfectly and give much better response. 
 
 ## Features
 
