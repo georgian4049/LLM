@@ -1,0 +1,6 @@
+autogen_agentchat
+requests
+re
+io
+PyPDF2
+openai
